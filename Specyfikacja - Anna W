@@ -1,0 +1,20 @@
+1. Opis:
+Powstanie platforma (strona internetowa posiadająca opisaną funkcjonalność) za pośrednictwem której możliwe będzie kupowanie biletów na seanse w kinie. Użytkownicy (każda osoba, która będzie chciała użyć strony) będą mieli możliwość wybrania dnia, filmu, godziny i miejsca, które chcą zająć.
+2. Architektura:
+Strona główna będzie zawierać reklamy filmów, plakaty tych, które obecnie można zobaczyć, oraz menu z możwilością wybrania miasta w którym chcemy obejrzeć film. Po wybraniu miasta załaduje się podstrona na której będą wymienione filmy i godziny ich odtwarzania, po wybraniu godziny przejdziemy na kolejną stronę, z możliwością wyboru miejsca. Na koniec trzeba będzie potwierdzić wybór.
+3. Technologia:
+Strona zostanie stworzona przy użyciu języka html.
+4. Przypadki użycia:
+Zakup biletu na seans. Sprawdzenie jakie jest obłożenie na dany seans.
+5. Scenariusze użycia
+* Przykładowy scenariusz pierwszy:
+Użytkownik chce zakupić bilet na seans
+Użytkownik wybiera miasto
+Użytkownik wybiera seans poprzez wybranie godziny przypisanej do danego seansu
+Użytkownik wybiera miejsce
+Użytkownik potwierdza wybor
+* Przykładowy scenariusz drugi:
+Użytkownik chce sprawdzić obłożenie na seans
+Użytkownik wybiera miasto
+Użytkownik wybiera seans poprzez wybranie godziny przypisanej do danego seansu
+Użytkownik przechodzi do strony z wyborem miejsca, ale go nie dokonuje
