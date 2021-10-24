@@ -1,0 +1,16 @@
+1. Opis:
+Strona internetowa dzięki której będzie można zakupić(automatycznie zajmując miejsca przez co nikt inny już nie może ich zakupić) bilety w wybranym przez niego mieścia na dowolny film w dowolnym dniu, zależnie do ilości wolnych miejsc.
+2. Architektura i technologia:
+Możliwość wyboru filmu z listy wyświetlanej na stronie głównej. Po wyborze filmu możliwość wyboru MIASTA w którym chce się zarezerwować bilety. Następnie rezerwacja miejsca na wybrany przez użytkownika film.
+Wykorzystany zostanie język html, css opcjonalnie c#.
+3. Przypadki użycia:
+Rezerwacja biletu na wybrany film
+4. Scenariusze użycia
+* Przykładowy scenariusz pierwszy:
+-Chęć rezerwacji biletu na wybrany film
+-Wybór miasta 
+-Wyświetlenie w które dni jest możliwa rezerwacja
+-Wybranie dnia 
+-Wyświetlenie wolnych miejsc
+-Wybranie wolnych miejsc(rezerwacja biletu)
+-Przejście do płatności
