@@ -1,0 +1,44 @@
+1. Opis
+Celem jest utworzenie platformy przeznaczonej dla kina, która będzie łączyła w sobie funkcję informacyjną oraz sklepu internetowego z biletami. Użytkownikiem może być każdy, poprzez założenie konta, albo skorzystania z opcji bez rejestracji. Klient ma możliwość zarezerwowania lub kupienia biletu na wybrany seans. W skład strony będzie wchodzić kilka podstron między innymi repertuar kina, nowości, menu, recenzje, karta stałego klienta. Zarejestrowany użytkownik będzie miał możliwość wcześniejszego kupna biletów na premiery filmowe.
+2. Architektura i technologia
+Strona ma zawierać, stronę główną na której będą się znajdować podstawowe informacje o kinie oraz o tytuły najnowszych premier. W górnej części strony znajdziemy menu dzięki któremu będziemy mogli otworzyć podstrony. Znajdziemy tam repertuar, menu baru w kinie, przegląd nowości oraz wiele innych rzeczy. Podstrona z repertuarem będzie zawierać grafiki filmowe a menu baru pokaże nam przekąski oraz napoje. Do poszczególnych podstron zostaną podłączone wybrane bazy danych. Do stworzenia strony zostaną użyte języki HTML, CSS oraz C#. 
+3. Model procesów biznesowych
+3.1. Obiekty biznesowe
+Nazwa:	Konto
+Opis:	Miejsce w którym użytkownik gromadzi swoją historię zamówień i rezerwacji. Konto musi mieć określoną nazwę. Konto posiada możliwość rezerwacji wybranych przez klienta seansów oraz kupowania biletów na dany film .
+4. Wymagania funkcjonalne
+ID:	Identyfikator wymagania
+Nazwa:	Tworzenie konta
+Priorytet:	WYSOKI
+Rola:	WSZYSCY
+Opis:	Użytkownik podając swoje dane może stworzyć konto. System wszystko weryfikuje. 
+ID:	Identyfikator wymagania
+Nazwa:	Logowanie użytkownika
+Priorytet:	WYSOKI
+Rola:	WSZYSCY
+Opis:	Za pomocą danych uwierzytelniających użytkownik może zalogować się do strony. 
+ID:	Identyfikator wymagania
+Nazwa:	Zarządzanie kupowaniem bądź rezerwacją biletu
+Priorytet:	WYSOKI
+Rola:	WSZYSCY
+Opis:	Użytkownik ma możliwość zarezerwowania bądź kupna biletu oraz może przeglądać swoją historie zamówień. Rezerwacje może anulować w dowolnej chwili. 
+5. Scenariusz
+5.1 Kupno biletu
+Klient chce kupić bilet.
+Klient loguje się na swoje konto (lub kontynuuje bez rejestracji).
+Klient wybiera film oraz miejsca.
+System zapisuje dane co do filmu i miejsc.
+Klient potwierdza chęć zakupu.
+System przekierowuje klienta do strony z płatnością. 
+System weryfikuje czy płatność się powiodła. 
+System blokuje możliwość kupienia wybranego miejsca na wybrany seans przez innego klienta.
+Klient dostaje na podanego maila dostaje ebilet. 
+5.2 Rezerwacja miejsca. 
+Klient chce zarezerwować bilet.
+Klient loguje się na swoje konto (lub kontynuuje bez rejestracji).
+Klient wybiera film oraz miejsca.
+System zapisuje dane co do filmu i miejsc.
+Klient potwierdza chęć rezerwacji. 
+System blokuje możliwość kupienia wybranego miejsca na wybrany seans przez innego klienta.
+Klient dostaje na podanego maila dostaje ebilet.
+
