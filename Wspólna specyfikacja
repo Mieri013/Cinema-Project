@@ -41,15 +41,17 @@ Rola:	WSZYSCY
 Opis:	Użytkownik ma możliwość zarezerwowania bądź kupna biletu oraz może przeglądać swoją historie zamówień. Rezerwacje może anulować w dowolnej chwili. 
 
 Alicja:
-+mozliwosc zamowien bez rejestracji
-+prosta budowa strony
--mało sprecyzowane scenariusze
++ mozliwosc zamowien bez rejestracji
++ prosta budowa strony
+- mało sprecyzowane scenariusze
 
 
 Ania:
-+prosta budowa strony
-+język html do budowy strony
--mało sprecyzowane scenariusze
++ prosta budowa strony
++ język html do budowy strony
+- mało sprecyzowane scenariusze
 
 Patryk:
++ prosta budowa strony
 - mało dokładny opis architektury strony
+- możliwe jest tylko zarezerwowanie miejsca
