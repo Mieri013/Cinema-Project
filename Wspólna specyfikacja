@@ -23,6 +23,22 @@ System zapisuje dane co do filmu i miejsc.
 Klient potwierdza chęć rezerwacji. 
 System blokuje możliwość kupienia wybranego miejsca na wybrany seans przez innego klienta.
 Klient dostaje na podanego maila dostaje ebilet.
+5. Wymagania funkcjonalne
+ID:	Identyfikator wymagania
+Nazwa:	Tworzenie konta
+Priorytet:	WYSOKI
+Rola:	WSZYSCY
+Opis:	Użytkownik podając swoje dane może stworzyć konto. System wszystko weryfikuje. 
+ID:	Identyfikator wymagania
+Nazwa:	Logowanie użytkownika
+Priorytet:	WYSOKI
+Rola:	WSZYSCY
+Opis:	Za pomocą danych uwierzytelniających użytkownik może zalogować się do strony. 
+ID:	Identyfikator wymagania
+Nazwa:	Zarządzanie kupowaniem bądź rezerwacją biletu
+Priorytet:	WYSOKI
+Rola:	WSZYSCY
+Opis:	Użytkownik ma możliwość zarezerwowania bądź kupna biletu oraz może przeglądać swoją historie zamówień. Rezerwacje może anulować w dowolnej chwili. 
 
 Alicja:
 +mozliwosc zamowien bez rejestracji
