@@ -22,7 +22,7 @@ Klient wybiera film oraz miejsca.
 System zapisuje dane co do filmu i miejsc.
 Klient potwierdza chęć rezerwacji. 
 System blokuje możliwość kupienia wybranego miejsca na wybrany seans przez innego klienta.
-Klient dostaje na podanego maila dostaje ebilet.
+Klient dostaje na podanego maila potwierdzenie rezerwacji z informacją, że po odbiór rezerwacji musi się stawić w kasie kina.
 5. Wymagania funkcjonalne
 ID:	Identyfikator wymagania
 Nazwa:	Tworzenie konta
