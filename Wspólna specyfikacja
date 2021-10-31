@@ -1,0 +1,36 @@
+ 1. Opis:
+Utworzenie platformy przeznaczonej dla kina, która będzie łączyła w sobie funkcję informacyjną oraz sklepu internetowego z biletami. Klient ma możliwość zarezerwowania lub kupienia biletu na wybrany seans bez konieczności rejestracji konta.Strona zawiera kilka podstron. Zarejestrowany użytkownik ma możliwość kupna biletu wcześniej.
+2. Architektura:
+Strona główna zawierająca na stronie głównej reklamy filmów które możemy aktualnie zobaczyć. W górnej części strony znajdziemy menu dzięki któremu będziemy mogli otworzyć podstrony. Znajdziemy tam repertuar, menu baru w kinie, przegląd nowości oraz wiele innych rzeczy. Podstrona z repertuarem będzie zawierać grafiki filmowe a menu baru pokaże nam przekąski oraz napoje. Do poszczególnych podstron zostaną podłączone wybrane bazy danych.
+3. Technologia:
+Strona stworzona będzie korzystając z języków html, css, c#.
+4. Scenariusze użycia
+4.1 Kupno biletu
+Klient chce kupić bilet.
+Klient loguje się na swoje konto (lub kontynuuje bez rejestracji).
+Klient wybiera film oraz miejsca.
+System zapisuje dane co do filmu i miejsc.
+Klient potwierdza chęć zakupu.
+System przekierowuje klienta do strony z płatnością. 
+System weryfikuje czy płatność się powiodła. 
+System blokuje możliwość kupienia wybranego miejsca na wybrany seans przez innego klienta.
+Klient dostaje na podanego maila dostaje ebilet. 
+4.2 Rezerwacja miejsca. 
+Klient chce zarezerwować bilet.
+Klient loguje się na swoje konto (lub kontynuuje bez rejestracji).
+Klient wybiera film oraz miejsca.
+System zapisuje dane co do filmu i miejsc.
+Klient potwierdza chęć rezerwacji. 
+System blokuje możliwość kupienia wybranego miejsca na wybrany seans przez innego klienta.
+Klient dostaje na podanego maila dostaje ebilet.
+
+Alicja:
++mozliwosc zamowien bez rejestracji
++prosta budowa strony
+-mało sprecyzowane scenariusze
+
+
+Ania:
++prosta budowa strony
++język html do budowy strony
+-mało sprecyzowane scenariusze
