@@ -7,7 +7,6 @@ Strona stworzona będzie korzystając z języków html, css, c#.
 4. Scenariusze użycia
 4.1 Kupno biletu
 Klient chce kupić bilet.
-Klient loguje się na swoje konto (lub kontynuuje bez rejestracji).
 Klient wybiera film oraz miejsca.
 System zapisuje dane co do filmu i miejsc.
 Klient potwierdza chęć zakupu.
@@ -17,28 +16,11 @@ System blokuje możliwość kupienia wybranego miejsca na wybrany seans przez in
 Klient dostaje na podanego maila dostaje ebilet. 
 4.2 Rezerwacja miejsca. 
 Klient chce zarezerwować bilet.
-Klient loguje się na swoje konto (lub kontynuuje bez rejestracji).
 Klient wybiera film oraz miejsca.
 System zapisuje dane co do filmu i miejsc.
 Klient potwierdza chęć rezerwacji. 
 System blokuje możliwość kupienia wybranego miejsca na wybrany seans przez innego klienta.
 Klient dostaje na podanego maila potwierdzenie rezerwacji z informacją, że po odbiór rezerwacji musi się stawić w kasie kina.
-5. Wymagania funkcjonalne
-ID:	Identyfikator wymagania
-Nazwa:	Tworzenie konta
-Priorytet:	WYSOKI
-Rola:	WSZYSCY
-Opis:	Użytkownik podając swoje dane może stworzyć konto. System wszystko weryfikuje. 
-ID:	Identyfikator wymagania
-Nazwa:	Logowanie użytkownika
-Priorytet:	WYSOKI
-Rola:	WSZYSCY
-Opis:	Za pomocą danych uwierzytelniających użytkownik może zalogować się do strony. 
-ID:	Identyfikator wymagania
-Nazwa:	Zarządzanie kupowaniem bądź rezerwacją biletu
-Priorytet:	WYSOKI
-Rola:	WSZYSCY
-Opis:	Użytkownik ma możliwość zarezerwowania bądź kupna biletu oraz może przeglądać swoją historie zamówień. Rezerwacje może anulować w dowolnej chwili. 
 
 
 Alicja:
