@@ -1,11 +1,26 @@
-body
-{
-	user-select: none;
-	margin: 0;
-	background-image: url(background.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	font-family: Arial;
+
+body {
+  user-select: none;
+  margin:0;
+  padding:0;
+  background-color: #040707;
+  min-height: 100vh;
+  min-width: 100%;
+  position: relative;
+  font-family: Arial;
+}
+
+body::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url("https://raw.githubusercontent.com/Mieri013/Cinema-Project/02bd70eeb95c298f793b0d7135daeac18b0ff28e/t%C5%82o.svg");
+  background-repeat: repeat;
+  background-position: center center;
+  opacity: .3;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 form, div
 {
@@ -14,8 +29,8 @@ form, div
 form
 {
 	position: absolute;
-	top: 50%;
-	left: 70%;
+	top: 45%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 }
 input
